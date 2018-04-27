@@ -73,7 +73,6 @@ export default class App extends React.Component {
         <KeyboardAvoidingView behavior="padding">
           <View style={styles.footer}>
             <TextInput
-              value={this.state.typing}
               style={styles.input}
               underlineColorAndroid="transparent"
               placeholder="Type something nice"
@@ -92,7 +91,7 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff'
+    backgroundColor: 'red'
   },
   row: {
     flexDirection: 'row',
